@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap');
+
+
+    
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+   
+}
+
+body{
+    color: #928c7d;
+}
+
+.contMenuLogo {
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    background-color: rgba(0, 123, 255, 0.637);
+
+
+
+}
+
+ .contMenuLogo h1 {
+    font-family: "Playwrite VN", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #ffffff;
+
+}
+
+.iconMenu {
+    display: block;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.iconMenu div {
+    width: 40px;
+    background-color: white;
+    height: 5px;
+}
+
+
+
+.contMenuLogo .iconoMenu {
+    cursor: pointer;
+}
+
+.contMenuLogo .iconoMenu .hamburgesa {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.hamburgesa div {
+    width: 100%;
+    height: 4px;
+    background-color: rgb(255, 255, 255)
+}
+
+.contMenuLogo img {
+    width: 10rem;
+    margin-bottom: 20px;
+
+}
+
+ nav ul li a {
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ nav {
+    position: absolute;
+    padding: 10px;
+    left: -1px;
+    height: 0px;
+    background-color: rgba(0, 123, 255, 0.637);
+    width: 0%;
+    display: flex;
+    justify-content: center;
+    transition: 500ms;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+}
+
+ .desplegar {
+    height: 100vh;
+    width: 100%;
+    opacity: 1;
+    overflow-y: hidden;
+}
+
+
+ nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+
+}
+
+ .desplegar ul {
+    opacity: 1;
+}
+
+
+ nav ul li a {
+    width: 90%;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    
+
+
+}
+ nav ul li a:hover {
+   text-decoration:underline;
+   
+
+
+}
+
+
+#contenido{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+}
+
+#contenido div{
+   
+    max-width: 600px;
+    padding: 10px;
+}
+
+#contenido div img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+#contenido div h1 {
+    color: #928c7d;
+  }
+  
+
